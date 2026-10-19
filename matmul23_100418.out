@@ -1,0 +1,58 @@
+# job      : 100418
+# partition: short-28core
+# node      : sn149
+# cores     : 28
+# date      : Sat Oct 17 23:27:33 EDT 2026
+# mpicc     : /gpfs/software/openmpi/gcc12.1/4.1.4/bin/mpicc
+
+# build ok
+
+## N=64 P=1
+RESULT N=64 P=1 t_par=0.000097 t_dist=0.000004 t_comp=0.000091 t_gath=0.000003 t_serlocal=0.000103 relerr=0.000e+00 verify=PASS
+
+## N=64 P=4
+RESULT N=64 P=4 t_par=0.000077 t_dist=0.000044 t_comp=0.000014 t_gath=0.000020 t_serlocal=0.000087 relerr=0.000e+00 verify=PASS
+
+## N=64 P=8
+RESULT N=64 P=8 t_par=0.000100 t_dist=0.000063 t_comp=0.000008 t_gath=0.000029 t_serlocal=0.000097 relerr=0.000e+00 verify=PASS
+
+## N=64 P=16
+RESULT N=64 P=16 t_par=0.000120 t_dist=0.000048 t_comp=0.000006 t_gath=0.000067 t_serlocal=0.000082 relerr=0.000e+00 verify=PASS
+
+## N=256 P=1
+RESULT N=256 P=1 t_par=0.007554 t_dist=0.000073 t_comp=0.007410 t_gath=0.000071 t_serlocal=0.007611 relerr=0.000e+00 verify=PASS
+
+## N=256 P=4
+RESULT N=256 P=4 t_par=0.002400 t_dist=0.000362 t_comp=0.001774 t_gath=0.000265 t_serlocal=0.007235 relerr=0.000e+00 verify=PASS
+
+## N=256 P=8
+RESULT N=256 P=8 t_par=0.001606 t_dist=0.000497 t_comp=0.000897 t_gath=0.000211 t_serlocal=0.007418 relerr=0.000e+00 verify=PASS
+
+## N=256 P=16
+RESULT N=256 P=16 t_par=0.001605 t_dist=0.000393 t_comp=0.000507 t_gath=0.000705 t_serlocal=0.007616 relerr=0.000e+00 verify=PASS
+
+## N=1024 P=1
+RESULT N=1024 P=1 t_par=0.323947 t_dist=0.001389 t_comp=0.321246 t_gath=0.001312 t_serlocal=0.324494 relerr=0.000e+00 verify=PASS
+
+## N=1024 P=4
+RESULT N=1024 P=4 t_par=0.115582 t_dist=0.004325 t_comp=0.084120 t_gath=0.027137 t_serlocal=0.335320 relerr=0.000e+00 verify=PASS
+
+## N=1024 P=8
+RESULT N=1024 P=8 t_par=0.072050 t_dist=0.014923 t_comp=0.054920 t_gath=0.002206 t_serlocal=0.336823 relerr=0.000e+00 verify=PASS
+
+## N=1024 P=16
+RESULT N=1024 P=16 t_par=0.079955 t_dist=0.007456 t_comp=0.068115 t_gath=0.004385 t_serlocal=0.338364 relerr=0.000e+00 verify=PASS
+
+## N=4096 P=1
+RESULT N=4096 P=1 t_par=50.825712 t_dist=0.052571 t_comp=50.720469 t_gath=0.052671 t_serlocal=50.768290 relerr=0.000e+00 verify=PASS
+
+## N=4096 P=4
+RESULT N=4096 P=4 t_par=12.550124 t_dist=0.116729 t_comp=12.259691 t_gath=0.173705 t_serlocal=50.986422 relerr=0.000e+00 verify=PASS
+
+## N=4096 P=8
+RESULT N=4096 P=8 t_par=6.875919 t_dist=0.140316 t_comp=6.669177 t_gath=0.066426 t_serlocal=52.172600 relerr=0.000e+00 verify=PASS
+
+## N=4096 P=16
+RESULT N=4096 P=16 t_par=4.976300 t_dist=0.156882 t_comp=4.703407 t_gath=0.116012 t_serlocal=52.112776 relerr=0.000e+00 verify=PASS
+
+# sweep complete: Sat Oct 17 23:32:27 EDT 2026
