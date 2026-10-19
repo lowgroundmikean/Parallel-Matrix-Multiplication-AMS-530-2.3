@@ -26,8 +26,7 @@ One mechanism, no fitted parameters, and it also explains why N = 256 scales
 cleanly (never exceeds 13% of capacity) and why N = 4096 degrades gradually
 rather than abruptly (never fit at any P, so there was no residency to lose).
  
-Full derivation, methodology and the Amdahl discussion are in
-[`AMS530_Project2_Problem2.3.pdf`](AMS530_Project2_Problem2.3.pdf).
+Full derivation, methodology and the Amdahl discussion are in my report.
  
 ---
  
