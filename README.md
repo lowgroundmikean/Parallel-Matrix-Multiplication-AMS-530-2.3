@@ -121,7 +121,7 @@ capacity effect at a problem size that sits comfortably in DRAM.
 │   ├── data.py                       # measured values + derived quantities
 │   ├── figures.py                    # the four figures
 │   └── build_report.py               # assembles the PDF
-└── AMS530_Project2_Problem2.3.pdf
+└── My Report
 ```
  
 ---
